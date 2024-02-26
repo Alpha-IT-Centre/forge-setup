@@ -8,6 +8,6 @@ install ubuntu, provision with forge
 Run the following command to setup your instance to my preferences.
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Alpha-IT-Centre/forge-setup/setup.sh | sh
+curl -sSL https://raw.githubusercontent.com/Alpha-IT-Centre/forge-setup/setup.sh | sudo bash
 ```
 
