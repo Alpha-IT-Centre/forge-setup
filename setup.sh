@@ -28,7 +28,7 @@ su forge -c 'cd /home/forge/dotfiles && stow .'
 
 # Configure sudoers to allow passwordless sudo for users in the sudo group
 echo "%sudo ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/99_nopasswd_sudo
-chmod 0440 /etc/sudoers/99_nopasswd_sudo
+chmod 0440 /etc/sudoers.d/99_nopasswd_sudo
 
 # Disable password login via SSH (PermtRootLogin no)
 sed -i 's/^PermitRootLogin yes/#&/' /etc/ssh/sshd_config
